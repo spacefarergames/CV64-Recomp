@@ -93,3 +93,10 @@ Its atmosphere, gameplay, and charm were always there — buried under hardware 
 And why not Legacy of Darkness?
 Because Castlevania 64 is the one that needed saving — and now it finally has been.
 All source changes are included in the release.
+
+Whats Next
+All these are already foundationally implemented, but need further work-
+-Mod System and Model Viewer - Code is there to support this, but needs finishing
+-External asset loading - The ROM is not needed at all for this Recomp to function, but we have added the ability to load external soundtrack replacement, (for example, picking up items / crystals plays an external WAV) so the ability to replace music and sound is already there)
+-Fix the post processing pipeline - We did get reflections, bloom and other effects working but we revoked it due to severe stability issues. This needs fixing.
+-Additional Camera fixups- The current code that modifies the camera system is currently not reliable due to many game states and overlays that dont always talk to each other well.
