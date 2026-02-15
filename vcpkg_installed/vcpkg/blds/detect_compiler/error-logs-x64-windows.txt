@@ -1,0 +1,2 @@
+C:\Users\patte\source\repos\CV64_RMG\vcpkg_installed\vcpkg\blds\detect_compiler\config-x64-windows-rel-CMakeCache.txt.log
+C:\Users\patte\source\repos\CV64_RMG\vcpkg_installed\vcpkg\blds\detect_compiler\config-x64-windows-out.log

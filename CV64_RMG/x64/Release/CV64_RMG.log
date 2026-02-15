@@ -1,0 +1,16 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(548,5): warning MSB8028: The intermediate directory (C:\Users\patte\source\repos\CV64_RMG\x64\Release\mupen64plus-core-static\) contains files shared from another project (mupen64plus-core-static.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\patte\source\repos\CV64_RMG\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+mupen64plus-rsp-hle-static.lib(osal_dynamiclib_win32.obj) : warning LNK4006: osal_dynlib_getproc already defined in mupen64plus-core-static.lib(dynamiclib_win32.obj); second definition ignored
+     Creating library C:\Users\patte\source\repos\CV64_RMG\x64\Release\CV64_RMG.lib and object C:\Users\patte\source\repos\CV64_RMG\x64\Release\CV64_RMG.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\patte\source\repos\CV64_RMG\x64\Release\CV64_RMG.exe : warning LNK4088: image being generated due to /FORCE option; image may not run
+  Generating code
+  2 of 16925 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    85 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CV64_RMG.vcxproj -> C:\Users\patte\source\repos\CV64_RMG\x64\Release\CV64_RMG.exe
+  Copying required DLLs to output directory...
+  0 File(s) copied
+  0 File(s) copied
+  0 File(s) copied

@@ -1,0 +1,9 @@
+{
+  "name": "cv64-rmg",
+  "version": "1.0.0",
+  "builtin-baseline": "aa2d37682e3318d93aef87efa7b0e88e81cd3d59",
+  "dependencies": [
+    "zlib",
+    "libpng"
+  ]
+}

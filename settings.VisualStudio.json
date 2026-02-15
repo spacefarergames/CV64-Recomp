@@ -1,0 +1,6 @@
+/* Visual Studio Settings File */
+{
+  "environment.terminal.profiles+defaultItemIndex": 1,
+  "environment.visualExperience.enableThemeAgnosticFonts": true,
+  "copilot.general.chat.enablePlanning": false
+}

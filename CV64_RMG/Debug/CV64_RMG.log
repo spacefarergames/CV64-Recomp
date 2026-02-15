@@ -1,0 +1,480 @@
+﻿  CV64_RMG.cpp
+  cv64_camera_patch.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(159,6): warning C4273: 'CV64_CameraPatch_Init': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(135,15):
+      see previous definition of 'CV64_CameraPatch_Init'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(174,6): warning C4273: 'CV64_CameraPatch_Shutdown': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(140,15):
+      see previous definition of 'CV64_CameraPatch_Shutdown'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(185,6): warning C4273: 'CV64_CameraPatch_Update': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(146,15):
+      see previous definition of 'CV64_CameraPatch_Update'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(250,6): warning C4273: 'CV64_CameraPatch_SetEnabled': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(152,15):
+      see previous definition of 'CV64_CameraPatch_SetEnabled'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(254,6): warning C4273: 'CV64_CameraPatch_IsEnabled': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(158,15):
+      see previous definition of 'CV64_CameraPatch_IsEnabled'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(258,6): warning C4273: 'CV64_CameraPatch_Rotate': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(169,15):
+      see previous definition of 'CV64_CameraPatch_Rotate'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(285,6): warning C4273: 'CV64_CameraPatch_SetRotation': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(176,15):
+      see previous definition of 'CV64_CameraPatch_SetRotation'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(295,6): warning C4273: 'CV64_CameraPatch_GetRotation': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(183,15):
+      see previous definition of 'CV64_CameraPatch_GetRotation'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(300,6): warning C4273: 'CV64_CameraPatch_SetDistance': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(189,15):
+      see previous definition of 'CV64_CameraPatch_SetDistance'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(304,6): warning C4273: 'CV64_CameraPatch_Zoom': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(195,15):
+      see previous definition of 'CV64_CameraPatch_Zoom'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(311,6): warning C4273: 'CV64_CameraPatch_Reset': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(200,15):
+      see previous definition of 'CV64_CameraPatch_Reset'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(315,6): warning C4273: 'CV64_CameraPatch_CenterBehindPlayer': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(205,15):
+      see previous definition of 'CV64_CameraPatch_CenterBehindPlayer'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(328,6): warning C4273: 'CV64_CameraPatch_ProcessDPad': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(216,15):
+      see previous definition of 'CV64_CameraPatch_ProcessDPad'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(356,6): warning C4273: 'CV64_CameraPatch_ProcessRightStick': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(224,15):
+      see previous definition of 'CV64_CameraPatch_ProcessRightStick'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(381,6): warning C4273: 'CV64_CameraPatch_ProcessMouse': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(232,15):
+      see previous definition of 'CV64_CameraPatch_ProcessMouse'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(401,19): warning C4273: 'CV64_CameraPatch_GetState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(242,28):
+      see previous definition of 'CV64_CameraPatch_GetState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(405,6): warning C4273: 'CV64_CameraPatch_SetMode': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(248,15):
+      see previous definition of 'CV64_CameraPatch_SetMode'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(422,5): warning C4273: 'CV64_CameraPatch_GetMode': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(254,14):
+      see previous definition of 'CV64_CameraPatch_GetMode'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(428,6): warning C4273: 'CV64_CameraPatch_SetLocked': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(260,15):
+      see previous definition of 'CV64_CameraPatch_SetLocked'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(432,6): warning C4273: 'CV64_CameraPatch_SetLookAt': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(266,15):
+      see previous definition of 'CV64_CameraPatch_SetLookAt'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(438,6): warning C4273: 'CV64_CameraPatch_GetLookAt': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(272,15):
+      see previous definition of 'CV64_CameraPatch_GetLookAt'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(444,6): warning C4273: 'CV64_CameraPatch_GetPosition': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(278,15):
+      see previous definition of 'CV64_CameraPatch_GetPosition'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(450,6): warning C4273: 'CV64_CameraPatch_SetPosition': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(284,15):
+      see previous definition of 'CV64_CameraPatch_SetPosition'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(461,25): warning C4273: 'CV64_CameraPatch_GetConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(294,34):
+      see previous definition of 'CV64_CameraPatch_GetConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(465,6): warning C4273: 'CV64_CameraPatch_ApplyConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(299,15):
+      see previous definition of 'CV64_CameraPatch_ApplyConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(477,6): warning C4273: 'CV64_CameraPatch_LoadConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(306,15):
+      see previous definition of 'CV64_CameraPatch_LoadConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(483,6): warning C4273: 'CV64_CameraPatch_SaveConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(313,15):
+      see previous definition of 'CV64_CameraPatch_SaveConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(488,6): warning C4273: 'CV64_CameraPatch_ResetConfigToDefaults': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(318,15):
+      see previous definition of 'CV64_CameraPatch_ResetConfigToDefaults'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(496,6): warning C4273: 'CV64_CameraPatch_CheckCollision': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(331,15):
+      see previous definition of 'CV64_CameraPatch_CheckCollision'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(509,6): warning C4273: 'CV64_CameraPatch_OnCameraMgrUpdate': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(344,15):
+      see previous definition of 'CV64_CameraPatch_OnCameraMgrUpdate'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(523,6): warning C4273: 'CV64_CameraPatch_OnPlayerMove': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(351,15):
+      see previous definition of 'CV64_CameraPatch_OnPlayerMove'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_camera_patch.cpp(531,6): warning C4273: 'CV64_CameraPatch_OnModeChange': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_camera_patch.h(358,15):
+      see previous definition of 'CV64_CameraPatch_OnModeChange'
+  
+  cv64_controller.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(149,6): warning C4273: 'CV64_Controller_Init': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(156,15):
+      see previous definition of 'CV64_Controller_Init'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(164,6): warning C4273: 'CV64_Controller_Shutdown': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(161,15):
+      see previous definition of 'CV64_Controller_Shutdown'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(173,6): warning C4273: 'CV64_Controller_Update': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(167,15):
+      see previous definition of 'CV64_Controller_Update'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(295,18): warning C4273: 'CV64_Controller_GetState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(174,27):
+      see previous definition of 'CV64_Controller_GetState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(302,6): warning C4273: 'CV64_Controller_IsButtonHeld': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(182,15):
+      see previous definition of 'CV64_Controller_IsButtonHeld'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(309,6): warning C4273: 'CV64_Controller_IsButtonPressed': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(190,15):
+      see previous definition of 'CV64_Controller_IsButtonPressed'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(316,6): warning C4273: 'CV64_Controller_GetAnalogStick': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(198,15):
+      see previous definition of 'CV64_Controller_GetAnalogStick'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(326,6): warning C4273: 'CV64_Controller_GetRightStick': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(206,15):
+      see previous definition of 'CV64_Controller_GetRightStick'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(336,6): warning C4273: 'CV64_Controller_GetMouseDelta': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(213,15):
+      see previous definition of 'CV64_Controller_GetMouseDelta'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(341,6): warning C4273: 'CV64_Controller_SetMouseCapture': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(219,15):
+      see previous definition of 'CV64_Controller_SetMouseCapture'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(356,6): warning C4273: 'CV64_Controller_LoadConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(226,15):
+      see previous definition of 'CV64_Controller_LoadConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(361,6): warning C4273: 'CV64_Controller_SaveConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(233,15):
+      see previous definition of 'CV64_Controller_SaveConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(366,24): warning C4273: 'CV64_Controller_GetConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(239,33):
+      see previous definition of 'CV64_Controller_GetConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(370,6): warning C4273: 'CV64_Controller_ApplyConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(244,15):
+      see previous definition of 'CV64_Controller_ApplyConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(382,6): warning C4273: 'CV64_Controller_GetDPadCameraInput': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(256,15):
+      see previous definition of 'CV64_Controller_GetDPadCameraInput'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(403,6): warning C4273: 'CV64_Controller_SetDPadCameraMode': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(264,15):
+      see previous definition of 'CV64_Controller_SetDPadCameraMode'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_controller.cpp(407,6): warning C4273: 'CV64_Controller_IsDPadCameraModeEnabled': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_controller.h(270,15):
+      see previous definition of 'CV64_Controller_IsDPadCameraModeEnabled'
+  
+  cv64_gfx_plugin.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(134,6): warning C4273: 'CV64_GfxPlugin_Init': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(189,15):
+      see previous definition of 'CV64_GfxPlugin_Init'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(193,6): warning C4273: 'CV64_GfxPlugin_Shutdown': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(194,15):
+      see previous definition of 'CV64_GfxPlugin_Shutdown'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(206,6): warning C4273: 'CV64_GfxPlugin_Load': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(202,15):
+      see previous definition of 'CV64_GfxPlugin_Load'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(276,6): warning C4273: 'CV64_GfxPlugin_Unload': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(207,15):
+      see previous definition of 'CV64_GfxPlugin_Unload'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(316,6): warning C4273: 'CV64_GfxPlugin_StartROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(214,15):
+      see previous definition of 'CV64_GfxPlugin_StartROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(353,6): warning C4273: 'CV64_GfxPlugin_StopROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(219,15):
+      see previous definition of 'CV64_GfxPlugin_StopROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(363,6): warning C4273: 'CV64_GfxPlugin_ProcessDList': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(224,15):
+      see previous definition of 'CV64_GfxPlugin_ProcessDList'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(369,6): warning C4273: 'CV64_GfxPlugin_UpdateScreen': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(229,15):
+      see previous definition of 'CV64_GfxPlugin_UpdateScreen'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(392,6): warning C4273: 'CV64_GfxPlugin_Resize': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(236,15):
+      see previous definition of 'CV64_GfxPlugin_Resize'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(401,6): warning C4273: 'CV64_GfxPlugin_ToggleFullscreen': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(241,15):
+      see previous definition of 'CV64_GfxPlugin_ToggleFullscreen'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(408,22): warning C4273: 'CV64_GfxPlugin_GetState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(246,31):
+      see previous definition of 'CV64_GfxPlugin_GetState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(412,6): warning C4273: 'CV64_GfxPlugin_ApplyConfig': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(252,15):
+      see previous definition of 'CV64_GfxPlugin_ApplyConfig'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(418,6): warning C4273: 'CV64_GfxPlugin_SetWidescreen': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(259,15):
+      see previous definition of 'CV64_GfxPlugin_SetWidescreen'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(426,6): warning C4273: 'CV64_GfxPlugin_SetRenderCallback': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(265,15):
+      see previous definition of 'CV64_GfxPlugin_SetRenderCallback'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(432,6): warning C4273: 'CV64_GfxPlugin_Screenshot': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(272,15):
+      see previous definition of 'CV64_GfxPlugin_Screenshot'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(469,5): warning C4273: 'CV64_GfxPlugin_GetFPS': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(277,14):
+      see previous definition of 'CV64_GfxPlugin_GetFPS'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(473,6): warning C4273: 'CV64_GfxPlugin_ConfigureGLideN64': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(286,15):
+      see previous definition of 'CV64_GfxPlugin_ConfigureGLideN64'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_gfx_plugin.cpp(488,6): warning C4273: 'CV64_GfxPlugin_SetHDTexturePath': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_gfx_plugin.h(295,15):
+      see previous definition of 'CV64_GfxPlugin_SetHDTexturePath'
+  
+  cv64_m64p_integration.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(249,6): warning C4273: 'CV64_M64P_Init': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(147,15):
+      see previous definition of 'CV64_M64P_Init'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(346,6): warning C4273: 'CV64_M64P_Shutdown': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(152,15):
+      see previous definition of 'CV64_M64P_Shutdown'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(385,23): warning C4273: 'CV64_M64P_GetState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(157,32):
+      see previous definition of 'CV64_M64P_GetState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(389,13): warning C4273: 'CV64_M64P_GetLastError': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(162,22):
+      see previous definition of 'CV64_M64P_GetLastError'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(397,6): warning C4273: 'CV64_M64P_LoadROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(173,15):
+      see previous definition of 'CV64_M64P_LoadROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(459,6): warning C4273: 'CV64_M64P_CloseROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(178,15):
+      see previous definition of 'CV64_M64P_CloseROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(469,6): warning C4273: 'CV64_M64P_GetROMHeader': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(185,15):
+      see previous definition of 'CV64_M64P_GetROMHeader'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(477,6): warning C4273: 'CV64_M64P_IsCV64ROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(191,15):
+      see previous definition of 'CV64_M64P_IsCV64ROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(510,6): warning C4273: 'CV64_M64P_Start': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(201,15):
+      see previous definition of 'CV64_M64P_Start'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(526,6): warning C4273: 'CV64_M64P_Stop': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(206,15):
+      see previous definition of 'CV64_M64P_Stop'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(534,6): warning C4273: 'CV64_M64P_Pause': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(211,15):
+      see previous definition of 'CV64_M64P_Pause'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(542,6): warning C4273: 'CV64_M64P_Resume': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(216,15):
+      see previous definition of 'CV64_M64P_Resume'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(550,6): warning C4273: 'CV64_M64P_Reset': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(222,15):
+      see previous definition of 'CV64_M64P_Reset'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(554,6): warning C4273: 'CV64_M64P_AdvanceFrame': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(227,15):
+      see previous definition of 'CV64_M64P_AdvanceFrame'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(558,6): warning C4273: 'CV64_M64P_IsRunning': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(232,15):
+      see previous definition of 'CV64_M64P_IsRunning'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(562,6): warning C4273: 'CV64_M64P_IsPaused': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(237,15):
+      see previous definition of 'CV64_M64P_IsPaused'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(570,4): warning C4273: 'CV64_M64P_ReadMemory8': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(248,13):
+      see previous definition of 'CV64_M64P_ReadMemory8'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(579,5): warning C4273: 'CV64_M64P_ReadMemory16': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(253,14):
+      see previous definition of 'CV64_M64P_ReadMemory16'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(588,5): warning C4273: 'CV64_M64P_ReadMemory32': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(258,14):
+      see previous definition of 'CV64_M64P_ReadMemory32'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(597,6): warning C4273: 'CV64_M64P_WriteMemory8': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(263,15):
+      see previous definition of 'CV64_M64P_WriteMemory8'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(605,6): warning C4273: 'CV64_M64P_WriteMemory16': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(268,15):
+      see previous definition of 'CV64_M64P_WriteMemory16'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(613,6): warning C4273: 'CV64_M64P_WriteMemory32': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(273,15):
+      see previous definition of 'CV64_M64P_WriteMemory32'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(621,7): warning C4273: 'CV64_M64P_GetRDRAMPointer': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(279,16):
+      see previous definition of 'CV64_M64P_GetRDRAMPointer'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(629,6): warning C4273: 'CV64_M64P_SaveState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(290,15):
+      see previous definition of 'CV64_M64P_SaveState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(635,6): warning C4273: 'CV64_M64P_LoadState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(297,15):
+      see previous definition of 'CV64_M64P_LoadState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(641,6): warning C4273: 'CV64_M64P_SetSaveSlot': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(303,15):
+      see previous definition of 'CV64_M64P_SetSaveSlot'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(649,6): warning C4273: 'CV64_M64P_SetSpeedFactor': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(313,15):
+      see previous definition of 'CV64_M64P_SetSpeedFactor'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(654,5): warning C4273: 'CV64_M64P_GetSpeedFactor': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(318,14):
+      see previous definition of 'CV64_M64P_GetSpeedFactor'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(661,6): warning C4273: 'CV64_M64P_SetSpeedLimiter': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(323,15):
+      see previous definition of 'CV64_M64P_SetSpeedLimiter'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(671,6): warning C4273: 'CV64_M64P_SetFrameCallback': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(340,15):
+      see previous definition of 'CV64_M64P_SetFrameCallback'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(680,6): warning C4273: 'CV64_M64P_SetControllerOverride': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(360,15):
+      see previous definition of 'CV64_M64P_SetControllerOverride'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(688,6): warning C4273: 'CV64_M64P_ClearControllerOverride': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(366,15):
+      see previous definition of 'CV64_M64P_ClearControllerOverride'
+  
+  cv64_memory_hook.cpp
+  cv64_rom_loader.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(62,5): warning C4273: 'CV64_Rom_DetectFormat': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(168,14):
+      see previous definition of 'CV64_Rom_DetectFormat'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(79,6): warning C4273: 'CV64_Rom_Byteswap': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(161,15):
+      see previous definition of 'CV64_Rom_Byteswap'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(115,6): warning C4273: 'CV64_Rom_Validate': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(132,15):
+      see previous definition of 'CV64_Rom_Validate'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(229,6): warning C4273: 'CV64_Rom_Load': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(123,15):
+      see previous definition of 'CV64_Rom_Load'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(265,6): warning C4273: 'CV64_Rom_IsCV64': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(139,15):
+      see previous definition of 'CV64_Rom_IsCV64'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(269,13): warning C4273: 'CV64_Rom_GetRegionName': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(146,22):
+      see previous definition of 'CV64_Rom_GetRegionName'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(278,13): warning C4273: 'CV64_Rom_GetVersionName': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(153,22):
+      see previous definition of 'CV64_Rom_GetVersionName'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_rom_loader.cpp(287,6): warning C4273: 'CV64_Rom_FindROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_rom_loader.h(176,15):
+      see previous definition of 'CV64_Rom_FindROM'
+  
+  Generating Code...
+     Creating library C:\Users\patte\source\repos\CV64_RMG\Debug\CV64_RMG.lib and object C:\Users\patte\source\repos\CV64_RMG\Debug\CV64_RMG.exp
+LINK : warning LNK4217: symbol '_CV64_Controller_Init' defined in 'cv64_controller.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4286: symbol '_CV64_Controller_Init' defined in 'cv64_controller.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_Controller_Shutdown' defined in 'cv64_controller.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl ShutdownRecomp(void)" (?ShutdownRecomp@@YAXXZ)'
+LINK : warning LNK4286: symbol '_CV64_Controller_Shutdown' defined in 'cv64_controller.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_Controller_Update' defined in 'cv64_controller.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl OnFrameCallback(void *)" (?OnFrameCallback@@YAXPAX@Z)'
+LINK : warning LNK4217: symbol '_CV64_Controller_SetDPadCameraMode' defined in 'cv64_controller.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4286: symbol '_CV64_Controller_SetDPadCameraMode' defined in 'cv64_controller.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_Controller_IsDPadCameraModeEnabled' defined in 'cv64_controller.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl RenderFrame(struct HDC__ *)" (?RenderFrame@@YAXPAUHDC__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_Init' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4286: symbol '_CV64_CameraPatch_Init' defined in 'cv64_camera_patch.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_Shutdown' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl ShutdownRecomp(void)" (?ShutdownRecomp@@YAXXZ)'
+LINK : warning LNK4286: symbol '_CV64_CameraPatch_Shutdown' defined in 'cv64_camera_patch.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_Update' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl OnFrameCallback(void *)" (?OnFrameCallback@@YAXPAX@Z)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_SetEnabled' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4286: symbol '_CV64_CameraPatch_SetEnabled' defined in 'cv64_camera_patch.obj' is imported by 'cv64_m64p_integration.obj'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_IsEnabled' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl RenderFrame(struct HDC__ *)" (?RenderFrame@@YAXPAUHDC__@@@Z)'
+LINK : warning LNK4286: symbol '_CV64_CameraPatch_IsEnabled' defined in 'cv64_camera_patch.obj' is imported by 'cv64_memory_hook.obj'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_Reset' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_GetState' defined in 'cv64_camera_patch.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl RenderFrame(struct HDC__ *)" (?RenderFrame@@YAXPAUHDC__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Init' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Shutdown' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl ShutdownRecomp(void)" (?ShutdownRecomp@@YAXXZ)'
+LINK : warning LNK4217: symbol '_CV64_M64P_GetState' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl RenderFrame(struct HDC__ *)" (?RenderFrame@@YAXPAUHDC__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_GetLastError' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_LoadROM' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl LoadDefaultROM(void)" (?LoadDefaultROM@@YA_NXZ)'
+LINK : warning LNK4217: symbol '_CV64_M64P_IsCV64ROM' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl LoadDefaultROM(void)" (?LoadDefaultROM@@YA_NXZ)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Start' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Stop' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl ShutdownRecomp(void)" (?ShutdownRecomp@@YAXXZ)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Pause' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Resume' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_Reset' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_IsRunning' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"void __cdecl RenderFrame(struct HDC__ *)" (?RenderFrame@@YAXPAUHDC__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_IsPaused' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_SaveState' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_LoadState' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z)'
+LINK : warning LNK4217: symbol '_CV64_M64P_SetFrameCallback' defined in 'cv64_m64p_integration.obj' is imported by 'CV64_RMG.obj' in function '"bool __cdecl InitializeRecomp(struct HWND__ *)" (?InitializeRecomp@@YA_NPAUHWND__@@@Z)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_ProcessDPad' defined in 'cv64_camera_patch.obj' is imported by 'cv64_controller.obj' in function '_CV64_Controller_Update'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_ProcessRightStick' defined in 'cv64_camera_patch.obj' is imported by 'cv64_controller.obj' in function '_CV64_Controller_Update'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_ProcessMouse' defined in 'cv64_camera_patch.obj' is imported by 'cv64_controller.obj' in function '_CV64_Controller_Update'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_Rotate' defined in 'cv64_camera_patch.obj' is imported by 'cv64_memory_hook.obj' in function '"void __cdecl CV64_Memory_FrameUpdate(void)" (?CV64_Memory_FrameUpdate@@YAXXZ)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_SetLocked' defined in 'cv64_camera_patch.obj' is imported by 'cv64_memory_hook.obj' in function '"void __cdecl CV64_Memory_FrameUpdate(void)" (?CV64_Memory_FrameUpdate@@YAXXZ)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_SetLookAt' defined in 'cv64_camera_patch.obj' is imported by 'cv64_memory_hook.obj' in function '"void __cdecl CV64_Memory_FrameUpdate(void)" (?CV64_Memory_FrameUpdate@@YAXXZ)'
+LINK : warning LNK4217: symbol '_CV64_CameraPatch_GetPosition' defined in 'cv64_camera_patch.obj' is imported by 'cv64_memory_hook.obj' in function '"void __cdecl CV64_Memory_FrameUpdate(void)" (?CV64_Memory_FrameUpdate@@YAXXZ)'
+  CV64_RMG.vcxproj -> C:\Users\patte\source\repos\CV64_RMG\Debug\CV64_RMG.exe

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</ProjectGuid>
+    <RootNamespace>mupen64plus_core_static</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CV64RecompCore</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\mupen64plus-core-static\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\mupen64plus-core-static\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;M64P_CORE_STATIC;NO_ASM;NO_ZLIB;_CRT_SECURE_NO_WARNINGS;CV64_NO_CONFIG_FILE_SAVE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\md5;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\xxhash;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\minizip;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\SDL2-2.26.3\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\zlib-1.2.13\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\libpng-1.6.39\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-core-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;M64P_CORE_STATIC;NO_ASM;NO_ZLIB;_CRT_SECURE_NO_WARNINGS;CV64_NO_CONFIG_FILE_SAVE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\md5;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\xxhash;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\subprojects\minizip;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\SDL2-2.26.3\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\zlib-1.2.13\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\libpng-1.6.39\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-core-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <!-- Source files from mupen64plus-core -->
+  <ItemGroup>
+    <!-- API -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\callbacks.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\common.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\config.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\debugger.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\frontend.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\vidext.c" />
+    <!-- Backends -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\api\video_capture_backend.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\plugins_compat\input_plugin_compat.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\plugins_compat\audio_plugin_compat.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\clock_ctime_plus_delta.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\dummy_video_capture.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\backends\file_storage.c" />
+    <!-- Debugger -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\debugger\dbg_breakpoints.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\debugger\dbg_debugger.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\debugger\dbg_decoder.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\debugger\dbg_memory.c" />
+    <!-- Device - Cart -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\af_rtc.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\cart.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\cart_rom.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\eeprom.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\flashram.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\is_viewer.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\sram.c" />
+    <!-- Device - Controllers -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\controllers\game_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\controllers\paks\biopak.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\controllers\paks\mempak.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\controllers\paks\rumblepak.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\controllers\paks\transferpak.c" />
+    <!-- Device - DD -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\dd\dd_controller.c" />
+    <!-- Device - Device -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\device.c" />
+    <!-- Device - GB -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\gb\gb_cart.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\gb\m64282fp.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\gb\mbc3_rtc.c" />
+    <!-- Device - Memory -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.c" />
+    <!-- Device - PIF -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\pif\bootrom_hle.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\pif\cic.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\pif\n64_cic_nus_6105.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\pif\pif.c" />
+    <!-- Device - R4300 -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\cached_interp.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\cp0.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\cp1.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\cp2.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\idec.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\instr_counters.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\interrupt.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\pure_interp.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\r4300_core.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\tlb.c" />
+    <!-- Device - RCP -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\ai\ai_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\mi\mi_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\pi\pi_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\rdp_core.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\ri\ri_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rsp\rsp_core.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\si\si_controller.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\vi\vi_controller.c" />
+    <!-- Device - RDRAM -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\device\rdram\rdram.c" />
+    <!-- Main -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\cheat.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\eventloop.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\profile.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\rom.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\sdl_key_converter.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\main\util.c" />
+    <!-- workqueue.c excluded - needs M64P_PARALLEL or causes duplicate definitions -->
+    <!-- OSAL (OS Abstraction Layer) -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\osal\dynamiclib_win32.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\osal\files_win32.c" />
+    <!-- OSD excluded - needs M64P_OSD or causes duplicate definitions -->
+    <!-- Plugin -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\plugin\plugin.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\plugin\dummy_audio.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\plugin\dummy_input.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\plugin\dummy_rsp.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\src\plugin\dummy_video.c" />
+    <!-- Subprojects -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\subprojects\md5\md5.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\subprojects\minizip\ioapi.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\subprojects\minizip\unzip.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-core\subprojects\minizip\zip.c" />
+    <!-- Stub files for missing dependencies -->
+    <ClCompile Include="m64pcore_gliden64_stubs.c" />
+    <ClCompile Include="zlib_stub.c" />
+    <ClCompile Include="png_stub.c" />
+    <ClCompile Include="dd_stub.c" />
+    <ClCompile Include="vru_stub.c" />
+  </ItemGroup>
+  <!-- Header files -->
+  <ItemGroup>
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_common.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_config.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_debugger.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_frontend.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_plugin.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_types.h" />
+    <ClInclude Include="..\RMG\Source\3rdParty\mupen64plus-core\src\api\m64p_vidext.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

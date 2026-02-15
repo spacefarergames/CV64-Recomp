@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{B1B2C3D4-E5F6-7890-ABCD-EF1234567891}</ProjectGuid>
+    <RootNamespace>mupen64plus_rsp_hle_static</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\rsp-hle-static\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\rsp-hle-static\</IntDir>
+  </PropertyGroup>
+  
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;M64P_PLUGIN_API;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-rsp-hle-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;M64P_PLUGIN_API;_CRT_SECURE_NO_WARNINGS;PluginStartup=rsphle_PluginStartup;PluginShutdown=rsphle_PluginShutdown;PluginGetVersion=rsphle_PluginGetVersion;DoRspCycles=rsphle_DoRspCycles;InitiateRSP=rsphle_InitiateRSP;RomClosed=rsphle_RomClosed;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-rsp-hle-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\alist.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\alist_audio.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\alist_naudio.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\alist_nead.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\audio.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\cicx105.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\hle.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\hvqm.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\jpeg.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\memory.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\mp3.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\musyx.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\plugin.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\re2.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-rsp-hle\src\osal_dynamiclib_win32.c" />
+  </ItemGroup>
+  
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>
+

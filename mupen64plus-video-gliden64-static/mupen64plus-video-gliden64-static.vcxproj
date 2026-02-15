@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A1B2C3D4-E5F6-7890-ABCD-EF1234567892}</ProjectGuid>
+    <RootNamespace>mupen64plus_video_gliden64_static</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>CV64RecompGraphics</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\gliden64-static\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)x64\$(Configuration)\gliden64-static\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;OS_WINDOWS;MUPENPLUSAPI;GL_USE_UNIFORMBLOCK;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;TXFILTER_LIB;GLIDEN64_STATIC_EXPORTS;osal_mkdirp=gliden64_osal_mkdirp;PluginStartup=gliden64_PluginStartup;PluginShutdown=gliden64_PluginShutdown;PluginGetVersion=gliden64_PluginGetVersion;InitiateGFX=gliden64_InitiateGFX;RomOpen=gliden64_RomOpen;RomClosed=gliden64_RomClosed;ProcessDList=gliden64_ProcessDList;ProcessRDPList=gliden64_ProcessRDPList;UpdateScreen=gliden64_UpdateScreen;ShowCFB=gliden64_ShowCFB;ChangeWindow=gliden64_ChangeWindow;MoveScreen=gliden64_MoveScreen;ResizeVideoOutput=gliden64_ResizeVideoOutput;ViStatusChanged=gliden64_ViStatusChanged;ViWidthChanged=gliden64_ViWidthChanged;FBRead=gliden64_FBRead;FBWrite=gliden64_FBWrite;FBGetFrameBufferInfo=gliden64_FBGetFrameBufferInfo;ReadScreen2=gliden64_ReadScreen2;SetRenderingCallback=gliden64_SetRenderingCallback;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\inc;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\osal;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\inc;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\zlib-1.2.13\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\libpng-1.6.39\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-video-gliden64-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;OS_WINDOWS;MUPENPLUSAPI;GL_USE_UNIFORMBLOCK;NOMINMAX;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;TXFILTER_LIB;GLIDEN64_STATIC_EXPORTS;osal_mkdirp=gliden64_osal_mkdirp;PluginStartup=gliden64_PluginStartup;PluginShutdown=gliden64_PluginShutdown;PluginGetVersion=gliden64_PluginGetVersion;InitiateGFX=gliden64_InitiateGFX;RomOpen=gliden64_RomOpen;RomClosed=gliden64_RomClosed;ProcessDList=gliden64_ProcessDList;ProcessRDPList=gliden64_ProcessRDPList;UpdateScreen=gliden64_UpdateScreen;ShowCFB=gliden64_ShowCFB;ChangeWindow=gliden64_ChangeWindow;MoveScreen=gliden64_MoveScreen;ResizeVideoOutput=gliden64_ResizeVideoOutput;ViStatusChanged=gliden64_ViStatusChanged;ViWidthChanged=gliden64_ViWidthChanged;FBRead=gliden64_FBRead;FBWrite=gliden64_FBWrite;FBGetFrameBufferInfo=gliden64_FBGetFrameBufferInfo;ReadScreen2=gliden64_ReadScreen2;SetRenderingCallback=gliden64_SetRenderingCallback;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\inc;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\osal;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-core\src\api;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\inc;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\zlib-1.2.13\include;$(ProjectDir)..\RMG\Source\3rdParty\mupen64plus-win32-deps\libpng-1.6.39\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)mupen64plus-video-gliden64-static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <!-- Core Source Files -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\3DMath.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Combiner.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\CombinerKey.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\CommonPluginAPI.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Config.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\convert.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\CRC32.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\CRC_OPT.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DebugDump.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Debugger.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DepthBuffer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DisplayLoadProgress.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DisplayWindow.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\FrameBuffer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\FrameBufferInfo.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GBI.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\gDP.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideN64.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GraphicsDrawer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\gSP.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\iob.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Log.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\MupenPlusPluginAPI.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\N64.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\PaletteTexture.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Performance.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\PostProcessor.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\RDP.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\RSP.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\RSP_LoadMatrix.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\SoftwareRender.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\TexrectDrawer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\TextDrawerStub.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\TextureFilterHandler.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Textures.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxFilterExport.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxFilter.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxCache.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxHiResCache.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxHiResLoader.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxHiResNoCache.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxImage.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxQuantize.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxReSample.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxTexCache.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxUtil.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TxDbg.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TextureFilters.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TextureFilters_2xsai.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TextureFilters_hq2x.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TextureFilters_hq4x.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\GLideNHQ\TextureFilters_xbrz.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\VI.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\ZlutTexture.cpp" />
+  </ItemGroup>
+  <!-- Graphics subsystem -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\ColorBufferReader.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\CombinerProgram.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\Context.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\ObjectHandle.cpp" />
+  </ItemGroup>
+  <!-- OpenGL Context -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLFunctions.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_Attributes.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_BufferedDrawer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_BufferManipulationObjectFactory.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_CachedFunctions.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_ColorBufferReaderWithBufferStorage.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_ColorBufferReaderWithPixelBuffer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_ColorBufferReaderWithReadPixels.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_ContextImpl.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_GLInfo.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_Parameters.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_TextureManipulationObjectFactory.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_UnbufferedDrawer.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\opengl_Utils.cpp" />
+  </ItemGroup>
+  <!-- WGL and Display Window - use mupen64plus display window for MUPENPLUSAPI -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\windows\WindowsWGL.cpp" />
+    <!-- windows_DisplayWindow.cpp excluded - uses non-MUPENPLUSAPI windowsStart/Stop/SwapBuffers -->
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\mupen64plus\mupen64plus_DisplayWindow.cpp" />
+  </ItemGroup>
+  <!-- Windows OSAL -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\osal\osal_files_win32.c" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\osal\osal_keys_win.c" />
+  </ItemGroup>
+  <!-- BlueNoise texture for dithering -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\BufferCopy\BlueNoiseTexture.cpp" />
+  </ItemGroup>
+  <!-- Common -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\common\CommonAPIImpl_common.cpp" />
+  </ItemGroup>
+  <!-- Windows specific (not CommonAPIImpl_windows.cpp - it uses non-mupen64plus GFX_INFO) -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\windows\ScreenShot.cpp" />
+  </ItemGroup>
+  <!-- MupenPlus specific -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\mupenplus\CommonAPIImpl_mupenplus.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\mupenplus\Config_mupenplus.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\mupenplus\MupenPlusAPIImpl.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\mupenplus\MemoryStatus_mupenplus.cpp" />
+  </ItemGroup>
+  <!-- GLSL Shaders -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerInputs.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramBuilder.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramBuilderAccurate.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramBuilderCommon.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramBuilderFast.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramImpl.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramUniformFactory.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramUniformFactoryAccurate.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramUniformFactoryCommon.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_CombinerProgramUniformFactoryFast.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_FXAA.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_ShaderStorage.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_SpecialShadersFactory.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\GLSL\glsl_Utils.cpp" />
+  </ItemGroup>
+  <!-- Depth Buffer Rendering -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DepthBufferRender\ClipPolygon.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\DepthBufferRender\DepthBufferRender.cpp" />
+  </ItemGroup>
+  <!-- Buffer Copy -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\BufferCopy\ColorBufferToRDRAM.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\BufferCopy\DepthBufferToRDRAM.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\BufferCopy\RDRAMtoColorBuffer.cpp" />
+  </ItemGroup>
+  <!-- uCodes -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3D.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DAM.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DBETA.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DDKR.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX095.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX2.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX2ACCLAIM.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX2CBFD.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DEX3.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DFLX2.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DGOLDEN.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DPD.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DSETA.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DTEXA.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F3DZEX2.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F5Indi_Naboo.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\F5Rogue.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\L3D.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\L3DEX.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\L3DEX2.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\S2DEX.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\S2DEX2.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\T3DUX.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\Turbo3D.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\ZSort.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\uCodes\ZSortBOSS.cpp" />
+  </ItemGroup>
+  <!-- xxHash is header-only (xxhash.h) - no .c file to compile -->
+  <!-- Threaded OpenGL Wrapper -->
+  <ItemGroup>
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\ThreadedOpenGl\opengl_Command.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\ThreadedOpenGl\opengl_ObjectPool.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\ThreadedOpenGl\opengl_WrappedFunctions.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\ThreadedOpenGl\opengl_Wrapper.cpp" />
+    <ClCompile Include="..\RMG\Source\3rdParty\mupen64plus-video-GLideN64\src\Graphics\OpenGLContext\ThreadedOpenGl\RingBufferPool.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

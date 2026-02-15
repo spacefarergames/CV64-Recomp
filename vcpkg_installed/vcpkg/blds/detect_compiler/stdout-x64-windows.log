@@ -1,0 +1,15 @@
+-- Configuring x64-windows
+CMake Error at scripts/cmake/vcpkg_execute_required_process.cmake:127 (message):
+    Command failed: C:/Users/patte/AppData/Local/vcpkg/downloads/tools/ninja/1.12.1-windows/ninja.exe -v
+    Working Directory: C:/Users/patte/source/repos/CV64_RMG/vcpkg_installed/vcpkg/blds/detect_compiler/x64-windows-rel/vcpkg-parallel-configure
+    Error code: 1
+    See logs for more information:
+      C:\Users\patte\source\repos\CV64_RMG\vcpkg_installed\vcpkg\blds\detect_compiler\config-x64-windows-rel-CMakeCache.txt.log
+      C:\Users\patte\source\repos\CV64_RMG\vcpkg_installed\vcpkg\blds\detect_compiler\config-x64-windows-out.log
+
+Call Stack (most recent call first):
+  scripts/cmake/vcpkg_configure_cmake.cmake:316 (vcpkg_execute_required_process)
+  scripts/detect_compiler/portfile.cmake:18 (vcpkg_configure_cmake)
+  scripts/ports.cmake:206 (include)
+
+

@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+
+  <Folder Name="/3rdParty/">
+    <Project Path="mupen64plus-core-static/mupen64plus-core-static.vcxproj" Id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" />
+    <Project Path="mupen64plus-video-gliden64-static/mupen64plus-video-gliden64-static.vcxproj" Id="a1b2c3d4-e5f6-7890-abcd-ef1234567892" />
+  </Folder>
+
+  <Project Path="CV64_RMG.vcxproj" Id="16ef6c11-b177-4dcb-b3d4-1bf1f68eb923">
+    <Dependency Project="mupen64plus-core-static/mupen64plus-core-static.vcxproj" />
+    <Dependency Project="mupen64plus-video-gliden64-static/mupen64plus-video-gliden64-static.vcxproj" />
+  </Project>
+</Solution>

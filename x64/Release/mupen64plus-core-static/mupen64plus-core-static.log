@@ -1,0 +1,228 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  callbacks.c
+  common.c
+  config.c
+  debugger.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/api/debugger.c')
+  
+  frontend.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/api/frontend.c')
+  
+  vidext.c
+  video_capture_backend.c
+  input_plugin_compat.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/backends/plugins_compat/input_plugin_compat.c')
+  
+  audio_plugin_compat.c
+  clock_ctime_plus_delta.c
+  dummy_video_capture.c
+  file_storage.c
+  dbg_breakpoints.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/debugger/dbg_breakpoints.c')
+  
+  dbg_debugger.c
+  dbg_decoder.c
+  dbg_memory.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/debugger/dbg_memory.c')
+  
+  af_rtc.c
+  cart.c
+  cart_rom.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/cart/cart_rom.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\cart_rom.c(116,13): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  eeprom.c
+  Compiling...
+  flashram.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/cart/flashram.c')
+  
+  is_viewer.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\cart\is_viewer.c(81,42): warning C4267: '-=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  sram.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/cart/sram.c')
+  
+  game_controller.c
+  biopak.c
+  mempak.c
+  rumblepak.c
+  transferpak.c
+  dd_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/dd/dd_controller.c')
+  
+  device.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/device.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\device.c(167,46): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\device.c(160,11): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+  gb_cart.c
+  m64282fp.c
+  mbc3_rtc.c
+  memory.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/memory/memory.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.c(216,25): warning C4267: 'function': conversion from 'size_t' to 'uint16_t', possible loss of data
+  bootrom_hle.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/pif/bootrom_hle.c')
+  
+  cic.c
+  n64_cic_nus_6105.c
+  pif.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/pif/pif.c')
+  
+  cached_interp.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/r4300/cached_interp.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\r4300\cached_interp.c(960,27): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  cp0.c
+  Compiling...
+  cp1.c
+  cp2.c
+  idec.c
+  instr_counters.c
+  interrupt.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/r4300/interrupt.c')
+  
+  pure_interp.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/r4300/pure_interp.c')
+  
+  r4300_core.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/r4300/r4300_core.c')
+  
+  tlb.c
+  ai_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/ai/ai_controller.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\ai\ai_controller.c(103,50): warning C4244: 'initializing': conversion from 'float' to 'unsigned int', possible loss of data
+  mi_controller.c
+  pi_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/pi/pi_controller.c')
+  
+  fb.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/rdp/fb.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(57,76): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(94,37): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(90,76): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(184,38): warning C4267: 'function': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(220,78): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\rdp\fb.c(260,79): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  rdp_core.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/rdp/rdp_core.c')
+  
+  ri_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/ri/ri_controller.c')
+  
+  rsp_core.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/rsp/rsp_core.c')
+  
+  si_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/si/si_controller.c')
+  
+  vi_controller.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rcp/vi/vi_controller.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\vi\vi_controller.c(166,5): warning C4013: 'CV64AnimBridge_captureFrame' undefined; assuming extern returning int
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\rcp\vi\vi_controller.c(174,9): warning C4013: 'CV64AnimBridge_applyInterpolatedPoses' undefined; assuming extern returning int
+  rdram.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/device/rdram/rdram.c')
+  
+  cheat.c
+  eventloop.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/main/eventloop.c')
+  
+  Compiling...
+  main.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/main/main.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(276,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(288,19): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(268,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(1028,46): warning C4244: '=': conversion from 'uint64_t' to 'double', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(1007,45): warning C4244: 'initializing': conversion from 'uint64_t' to 'double', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(1138,29): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(1755,69): warning C4267: 'function': conversion from 'size_t' to 'uint8_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\main.c(1912,65): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+  profile.c
+  rom.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/main/rom.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\rom.c(316,69): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+  savestates.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/main/savestates.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c(275,38): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c(287,38): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c(300,38): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c(1304,87): warning C4267: 'function': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\savestates.c(1516,40): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data
+  screenshot.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/main/screenshot.c')
+  
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(63,27): warning C4013: 'png_get_io_ptr' undefined; assuming extern returning int
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(63,18): warning C4312: 'type cast': conversion from 'int' to 'FILE *' of greater size
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(70,18): warning C4312: 'type cast': conversion from 'int' to 'FILE *' of greater size
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(97,16): warning C4013: 'png_jmpbuf' undefined; assuming extern returning int
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(97,16): warning C4047: 'function': '_JBTYPE *' differs in levels of indirection from 'int'
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(97,16): warning C4024: '_setjmp': different types for formal and actual parameter 1
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(123,5): warning C4013: 'png_set_rows' undefined; assuming extern returning int
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\screenshot.c(125,5): warning C4013: 'png_write_png' undefined; assuming extern returning int
+  sdl_key_converter.c
+  util.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\util.c(103,18): warning C4267: 'function': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\util.c(591,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\util.c(592,18): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\main\util.c(1822,35): warning C4244: '=': conversion from 'uint16_t' to 'unsigned char', possible loss of data
+  dynamiclib_win32.c
+  files_win32.c
+  plugin.c
+C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\RMG\Source\3rdParty\mupen64plus-core\src\device\memory\memory.h(31,8): warning C4309: 'initializing': truncation of constant value
+  (compiling source file '../RMG/Source/3rdParty/mupen64plus-core/src/plugin/plugin.c')
+  
+  dummy_audio.c
+  dummy_input.c
+  dummy_rsp.c
+  dummy_video.c
+  md5.c
+  ioapi.c
+  unzip.c
+  zip.c
+  m64pcore_gliden64_stubs.c
+  zlib_stub.c
+  Compiling...
+  png_stub.c
+  dd_stub.c
+  vru_stub.c
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1574,5): warning MSB8012: TargetPath(C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\x64\Release\CV64RecompCore.lib) does not match the Library's OutputFile property value (C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\x64\Release\mupen64plus-core-static.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(1576,5): warning MSB8012: TargetName(CV64RecompCore) does not match the Library's OutputFile property value (mupen64plus-core-static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  mupen64plus-core-static.vcxproj -> C:\Users\patte\source\repos\CV64_RMG\CV64-Recomp\x64\Release\CV64RecompCore.lib

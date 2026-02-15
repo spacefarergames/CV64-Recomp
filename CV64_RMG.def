@@ -1,0 +1,70 @@
+; CV64_RMG Module Definition File
+; Exports input plugin functions so mupen64plus can find them
+; The C++ code has extern "C" blocks that export these functions
+
+EXPORTS
+    ; === mupen64plus Core API (for static linking - plugins need these) ===
+    CoreStartup
+    CoreShutdown
+    CoreDoCommand
+    CoreAttachPlugin
+    CoreDetachPlugin
+    CoreOverrideVidExt
+    CoreErrorMessage
+    
+    ; Static Plugin Registration API (NEW - for fully embedded plugins)
+    CoreRegisterGfxPlugin
+    CoreRegisterAudioPlugin
+    CoreRegisterInputPlugin
+    CoreRegisterRspPlugin
+    
+    ; Config API
+    ConfigOpenSection
+    ConfigSaveSection
+    ConfigSaveFile
+    ConfigSetParameter
+    ConfigGetParameter
+    ConfigSetDefaultInt
+    ConfigSetDefaultFloat
+    ConfigSetDefaultBool
+    ConfigSetDefaultString
+    
+    ; Debug API
+    DebugMemGetPointer
+    DebugMemRead32
+    DebugMemWrite32
+    DebugSetCallbacks
+    DebugSetRunState
+    DebugGetState
+    DebugStep
+    
+    ; === Standard mupen64plus plugin API names (what GetProcAddress looks for) ===
+    PluginStartup
+    PluginShutdown
+    PluginGetVersion
+    
+    ; Input plugin specific API names
+    InitiateControllers
+    GetKeys
+    ControllerCommand
+    RomOpen
+    RomClosed
+    ReadController
+    SDL_KeyDown
+    SDL_KeyUp
+    
+    ; VRU (Voice Recognition Unit) support - RMG mupen64plus core requires THESE specific names
+    SendVRUWord
+    SetMicState
+    ReadVRUResults
+    ClearVRUWords
+    SetVRUWordMask
+    
+    ; Additional RMG core functions
+    GetControlInfo
+    RenderCallback
+    WM_KeyDown
+    WM_KeyUp
+
+
+

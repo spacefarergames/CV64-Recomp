@@ -1,0 +1,138 @@
+﻿  cv64_m64p_integration.cpp
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(576,6): warning C4273: 'CV64_M64P_Init': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(156,15):
+      see previous definition of 'CV64_M64P_Init'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(676,6): warning C4273: 'CV64_M64P_Shutdown': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(161,15):
+      see previous definition of 'CV64_M64P_Shutdown'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(733,23): warning C4273: 'CV64_M64P_GetState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(177,32):
+      see previous definition of 'CV64_M64P_GetState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(737,13): warning C4273: 'CV64_M64P_GetLastError': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(182,22):
+      see previous definition of 'CV64_M64P_GetLastError'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(741,6): warning C4273: 'CV64_M64P_LoadPlugins': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(167,15):
+      see previous definition of 'CV64_M64P_LoadPlugins'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(759,6): warning C4273: 'CV64_M64P_LoadROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(193,15):
+      see previous definition of 'CV64_M64P_LoadROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(821,6): warning C4273: 'CV64_M64P_CloseROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(198,15):
+      see previous definition of 'CV64_M64P_CloseROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(831,6): warning C4273: 'CV64_M64P_GetROMHeader': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(205,15):
+      see previous definition of 'CV64_M64P_GetROMHeader'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(839,6): warning C4273: 'CV64_M64P_IsCV64ROM': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(211,15):
+      see previous definition of 'CV64_M64P_IsCV64ROM'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(868,6): warning C4273: 'CV64_M64P_Start': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(221,15):
+      see previous definition of 'CV64_M64P_Start'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(895,6): warning C4273: 'CV64_M64P_Stop': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(226,15):
+      see previous definition of 'CV64_M64P_Stop'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(903,6): warning C4273: 'CV64_M64P_Pause': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(231,15):
+      see previous definition of 'CV64_M64P_Pause'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(911,6): warning C4273: 'CV64_M64P_Resume': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(236,15):
+      see previous definition of 'CV64_M64P_Resume'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(919,6): warning C4273: 'CV64_M64P_Reset': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(242,15):
+      see previous definition of 'CV64_M64P_Reset'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(923,6): warning C4273: 'CV64_M64P_AdvanceFrame': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(247,15):
+      see previous definition of 'CV64_M64P_AdvanceFrame'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(927,6): warning C4273: 'CV64_M64P_IsRunning': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(252,15):
+      see previous definition of 'CV64_M64P_IsRunning'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(931,6): warning C4273: 'CV64_M64P_IsPaused': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(257,15):
+      see previous definition of 'CV64_M64P_IsPaused'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(939,4): warning C4273: 'CV64_M64P_ReadMemory8': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(268,13):
+      see previous definition of 'CV64_M64P_ReadMemory8'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(948,5): warning C4273: 'CV64_M64P_ReadMemory16': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(273,14):
+      see previous definition of 'CV64_M64P_ReadMemory16'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(957,5): warning C4273: 'CV64_M64P_ReadMemory32': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(278,14):
+      see previous definition of 'CV64_M64P_ReadMemory32'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(966,6): warning C4273: 'CV64_M64P_WriteMemory8': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(283,15):
+      see previous definition of 'CV64_M64P_WriteMemory8'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(974,6): warning C4273: 'CV64_M64P_WriteMemory16': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(288,15):
+      see previous definition of 'CV64_M64P_WriteMemory16'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(982,6): warning C4273: 'CV64_M64P_WriteMemory32': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(293,15):
+      see previous definition of 'CV64_M64P_WriteMemory32'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(990,7): warning C4273: 'CV64_M64P_GetRDRAMPointer': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(299,16):
+      see previous definition of 'CV64_M64P_GetRDRAMPointer'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(998,6): warning C4273: 'CV64_M64P_SaveState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(310,15):
+      see previous definition of 'CV64_M64P_SaveState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1004,6): warning C4273: 'CV64_M64P_LoadState': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(317,15):
+      see previous definition of 'CV64_M64P_LoadState'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1010,6): warning C4273: 'CV64_M64P_SetSaveSlot': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(323,15):
+      see previous definition of 'CV64_M64P_SetSaveSlot'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1018,6): warning C4273: 'CV64_M64P_SetSpeedFactor': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(333,15):
+      see previous definition of 'CV64_M64P_SetSpeedFactor'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1023,5): warning C4273: 'CV64_M64P_GetSpeedFactor': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(338,14):
+      see previous definition of 'CV64_M64P_GetSpeedFactor'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1030,6): warning C4273: 'CV64_M64P_SetSpeedLimiter': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(343,15):
+      see previous definition of 'CV64_M64P_SetSpeedLimiter'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1040,6): warning C4273: 'CV64_M64P_SetFrameCallback': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(360,15):
+      see previous definition of 'CV64_M64P_SetFrameCallback'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1049,6): warning C4273: 'CV64_M64P_SetControllerOverride': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(380,15):
+      see previous definition of 'CV64_M64P_SetControllerOverride'
+  
+C:\Users\patte\source\repos\CV64_RMG\src\cv64_m64p_integration.cpp(1057,6): warning C4273: 'CV64_M64P_ClearControllerOverride': inconsistent dll linkage
+      C:\Users\patte\source\repos\CV64_RMG\include\cv64_m64p_integration.h(386,15):
+      see previous definition of 'CV64_M64P_ClearControllerOverride'
+  
+  cv64_m64p_integration_static.cpp
+\src\cv64_m64p_integration_static.cpp(1,1): error C1083: Cannot open source file: 'src\cv64_m64p_integration_static.cpp': No such file or directory
+  (compiling source file '/src/cv64_m64p_integration_static.cpp')
+  
+  Generating Code...

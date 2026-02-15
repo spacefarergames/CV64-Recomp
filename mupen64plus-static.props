@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  mupen64plus-core Static Linking Configuration
+  
+  Import this file in CV64_RMG.vcxproj to enable static linking with mupen64plus-core.
+  
+  To use static linking:
+  1. Add this Import to CV64_RMG.vcxproj before the final Microsoft.Cpp.targets Import:
+     <Import Project="mupen64plus-static.props" />
+  
+  2. Define CV64_STATIC_MUPEN64PLUS in your preprocessor definitions
+  
+  3. Build the mupen64plus-core-static project first
+-->
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+  <PropertyGroup Label="UserMacros">
+    <Mupen64PlusCoreDir>$(ProjectDir)RMG\Source\3rdParty\mupen64plus-core\</Mupen64PlusCoreDir>
+    <Mupen64PlusRspHleDir>$(ProjectDir)RMG\Source\3rdParty\mupen64plus-rsp-hle\</Mupen64PlusRspHleDir>
+    <Mupen64PlusGlideN64Dir>$(ProjectDir)RMG\Source\3rdParty\mupen64plus-video-GLideN64\</Mupen64PlusGlideN64Dir>
+    <Mupen64PlusWin32Deps>$(ProjectDir)RMG\Source\3rdParty\mupen64plus-win32-deps\</Mupen64PlusWin32Deps>
+    <ZlibPackageDir>$(ProjectDir)packages\zlib-msvc14-x64.1.2.11.7795\build\native\</ZlibPackageDir>
+    <LibPngPackageDir>$(ProjectDir)packages\libpng-msvc14-x64.1.6.29.7801\build\native\</LibPngPackageDir>
+  </PropertyGroup>
+  
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <!-- Add mupen64plus include directories -->
+      <AdditionalIncludeDirectories>
+        $(ProjectDir)include;
+        $(Mupen64PlusCoreDir)src;
+        $(Mupen64PlusCoreDir)src\api;
+        $(Mupen64PlusCoreDir)subprojects\md5;
+        $(Mupen64PlusCoreDir)subprojects\xxhash;
+        $(Mupen64PlusCoreDir)subprojects\minizip;
+        $(Mupen64PlusWin32Deps)SDL2-2.26.3\include;
+        $(ZlibPackageDir)include;
+        $(LibPngPackageDir)include;
+        %(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+      
+      <!-- Add static linking preprocessor definition -->
+      <PreprocessorDefinitions>
+        CV64_STATIC_MUPEN64PLUS;
+        CV64_USE_GLIDEN64;
+        CV64_USE_RSP_HLE;
+        CV64_USE_CUSTOM_INPUT;
+        M64P_CORE_PROTOTYPES;
+        %(PreprocessorDefinitions)
+      </PreprocessorDefinitions>
+    </ClCompile>
+    
+    <Link>
+      <!-- Link against all static libraries -->
+      <AdditionalDependencies>
+        mupen64plus-core-static.lib;
+        mupen64plus-video-gliden64-static.lib;
+        mupen64plus-rsp-hle-static.lib;
+        SDL2.lib;
+        opengl32.lib;
+        glu32.lib;
+        ws2_32.lib;
+        winmm.lib;
+        imm32.lib;
+        version.lib;
+        setupapi.lib;
+        zlib.lib;
+        libpng16.lib;
+        %(AdditionalDependencies)
+      </AdditionalDependencies>
+      
+      <!-- Library directories -->
+      <AdditionalLibraryDirectories>
+        $(SolutionDir)x64\$(Configuration);
+        $(Mupen64PlusWin32Deps)SDL2-2.26.3\lib\x64;
+        $(ZlibPackageDir)lib_release;
+        $(LibPngPackageDir)lib_release;
+        %(AdditionalLibraryDirectories)
+      </AdditionalLibraryDirectories>
+      
+      <!-- Allow duplicate symbols from static libs (osal functions exist in core and plugins) -->
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    
+    <!-- Copy SDL2.dll and other DLLs to output directory -->
+    <PostBuildEvent>
+      <Command>xcopy /Y /D "$(Mupen64PlusWin32Deps)SDL2-2.26.3\lib\x64\SDL2.dll" "$(OutDir)"
+xcopy /Y /D "$(ZlibPackageDir)bin_release\zlib.dll" "$(OutDir)"
+xcopy /Y /D "$(LibPngPackageDir)bin_release\libpng16.dll" "$(OutDir)"</Command>
+      <Message>Copying required DLLs to output directory...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  
+</Project>

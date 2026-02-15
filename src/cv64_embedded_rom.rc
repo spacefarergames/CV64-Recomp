@@ -1,0 +1,11 @@
+/**
+ * CV64 Embedded ROM Resource
+ * This embeds the baserom.z64 directly into the executable
+ */
+
+// Resource ID
+#define IDR_BASEROM 101
+
+// Embed the ROM as RCDATA binary resource
+IDR_BASEROM RCDATA "..\\assets\\baserom.z64"
+

@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{16ef6c11-b177-4dcb-b3d4-1bf1f68eb923}</ProjectGuid>
+    <RootNamespace>CV64RMG</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CV64_STATIC_MUPEN64PLUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;CV64_STATIC_MUPEN64PLUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;CV64_STATIC_MUPEN64PLUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;CV64_STATIC_MUPEN64PLUS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="CV64_RMG.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="include\cv64_audio.h" />
+    <ClInclude Include="include\cv64_camera_patch.h" />
+    <ClInclude Include="include\cv64_controller.h" />
+    <ClInclude Include="include\cv64_gfx_plugin.h" />
+    <ClInclude Include="include\cv64_gliden64_static.h" />
+    <ClInclude Include="include\cv64_graphics.h" />
+    <ClInclude Include="include\cv64_ini_parser.h" />
+    <ClInclude Include="include\cv64_input_plugin.h" />
+    <ClInclude Include="include\cv64_m64p_integration.h" />
+    <ClInclude Include="include\cv64_m64p_static.h" />
+    <ClInclude Include="include\cv64_m64p_static_wrapper.h" />
+    <ClInclude Include="include\cv64_memory_hook.h" />
+    <ClInclude Include="include\cv64_memory_map.h" />
+    <ClInclude Include="include\cv64_patches.h" />
+    <ClInclude Include="include\cv64_recomp.h" />
+    <ClInclude Include="include\cv64_rom_loader.h" />
+    <ClInclude Include="include\cv64_rsp_hle_static.h" />
+    <ClInclude Include="include\cv64_static_plugins.h" />
+    <ClInclude Include="include\cv64_types.h" />
+    <ClInclude Include="include\cv64_vidext.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\freetype-2.13.0\include\freetype.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\freetype-2.13.0\include\ft2build.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\freetype-2.13.0\include\ftglyph.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\freetype-2.13.0\include\ftoutln.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\freetype-2.13.0\include\fttrigon.h" />
+    <ClInclude Include="RMG\Source\3rdParty\mupen64plus-win32-deps\libpng-1.6.39\include\png.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CV64_RMG.cpp" />
+    <ClCompile Include="src\cv64_camera_patch.cpp" />
+    <ClCompile Include="src\cv64_controller.cpp" />
+    <ClCompile Include="src\cv64_gfx_plugin.cpp" />
+    <ClCompile Include="src\cv64_ini_parser.cpp" />
+    <ClCompile Include="src\cv64_input_plugin.cpp" />
+    <ClCompile Include="src\cv64_m64p_integration.cpp" />
+    <ClCompile Include="src\cv64_m64p_integration_static.cpp" />
+    <ClCompile Include="src\cv64_memory_hook.cpp" />
+    <ClCompile Include="src\cv64_rom_loader.cpp" />
+    <ClCompile Include="src\cv64_static_plugins.cpp" />
+    <ClCompile Include="src\cv64_vidext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CV64_RMG.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CV64_RMG.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="apply_static_integration.ps1" />
+    <None Include="build_all_static.ps1" />
+    <None Include="build_and_test.bat" />
+    <None Include="build_static_m64p.md" />
+    <None Include="build_working.ps1" />
+    <None Include="CHANGELOG.md" />
+    <None Include="configure_cv64_for_static.ps1" />
+    <None Include="configure_static_m64p.ps1" />
+    <None Include="CV64_RMG.def" />
+    <None Include="DEVELOPER.md" />
+    <None Include="download_64bit_plugins.ps1" />
+    <None Include="download_full_deps.ps1" />
+    <None Include="download_plugins.bat" />
+    <None Include="download_plugins_direct.ps1" />
+    <None Include="download_x64_gliden64.ps1" />
+    <None Include="download_zlib.ps1" />
+    <None Include="FIX_AND_BUILD_ALL.ps1" />
+    <None Include="INTEGRATION_COMPLETE.md" />
+    <None Include="INTEGRATION_NOTES.md" />
+    <None Include="mupen64plus-core-static\mupen64plus-core-static.vcxproj" />
+    <None Include="mupen64plus-rsp-hle-static\mupen64plus-rsp-hle-static.vcxproj" />
+    <None Include="mupen64plus-static.props" />
+    <None Include="mupen64plus-video-gliden64-static\mupen64plus-video-gliden64-static.vcxproj" />
+    <None Include="patches\cv64_audio.ini" />
+    <None Include="patches\cv64_camera.ini" />
+    <None Include="patches\cv64_controls.ini" />
+    <None Include="patches\cv64_graphics.ini" />
+    <None Include="patches\cv64_patches.ini" />
+    <None Include="PROJECT_SUMMARY.md" />
+    <None Include="QUICKSTART.md" />
+    <None Include="README.md" />
+    <None Include="README_STATIC.md" />
+    <None Include="RESEARCH.md" />
+    <None Include="restore_and_build.ps1" />
+    <None Include="scripts\copy_plugins.ps1" />
+    <None Include="SETUP_COMPLETE.md" />
+    <None Include="setup_mupen64plus_deps.ps1" />
+    <None Include="setup_nasm.ps1" />
+    <None Include="setup_plugins.bat" />
+    <None Include="STATIC_LINKING_GUIDE.md" />
+    <None Include="STATIC_MUPEN64PLUS_GUIDE.md" />
+    <None Include="TESTING.md" />
+  </ItemGroup>
+  <Import Project="mupen64plus-static.props" />
+  <ItemGroup>
+    <ProjectReference Include="mupen64plus-core-static\mupen64plus-core-static.vcxproj">
+      <Project>{a1b2c3d4-e5f6-7890-abcd-ef1234567890}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
