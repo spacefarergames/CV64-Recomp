@@ -100,3 +100,6 @@ All these are already foundationally implemented, but need further work-
 -External asset loading - The ROM is not needed at all for this Recomp to function, but we have added the ability to load external soundtrack replacement, (for example, picking up items / crystals plays an external WAV) so the ability to replace music and sound is already there)
 -Fix the post processing pipeline - We did get reflections, bloom and other effects working but we revoked it due to severe stability issues. This needs fixing.
 -Additional Camera fixups- The current code that modifies the camera system is currently not reliable due to many game states and overlays that dont always talk to each other well.
+
+BUILDING
+For easy building on Windows, use Visual Studio 2026 release and open from the SLNX. Symbols are all there, but a copy of CV64 Decomp may be needed for reference and implementation. Currently builds for Windows X64 but it's possible to get this building on Linux and macOS due to use of SDL lib.
