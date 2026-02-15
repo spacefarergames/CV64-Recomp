@@ -1,4 +1,6 @@
 # CV64 Recomp
+![Logo](RemasteredLauncherDialog.png)
+
 Static Recomp and Remaster of Castlevania 64
 Castlevania 64 Remastered (Claude Bravo)
 – Release Notes & Feature Overview
